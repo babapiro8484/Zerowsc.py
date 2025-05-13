@@ -487,7 +487,6 @@ def send_login_data(uname, upass):
             if response_data['status']:
                 # Simpan semua data user termasuk token
                 Your_Data.update({
-                    'access_token': response_data['access_token'],
                     'username': response_data['data']['username']
                     'email_web': response_data['data']['email'],
                     
