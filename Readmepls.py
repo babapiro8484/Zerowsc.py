@@ -1,0 +1,1 @@
+THİS SCRİPT BY:ZEROW
