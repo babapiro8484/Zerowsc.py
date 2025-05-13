@@ -4,8 +4,7 @@ CURRENT_VERSION = """
 2.6.10
 """
 CURRENT_VERSION=CURRENT_VERSION.replace('\n','')
-server_local = "http://127.0.0.1:3000"
-server_online = "https://api.topixsb.dev"
+server_online = "https://8a004015-05e8-4296-a329-2a046f576412-00-15p4jwb2zi7vb.pike.replit.dev/"
 mode_server = server_online
 """
 -------------------------------------------
@@ -394,7 +393,7 @@ def heder():
         isp_info = f"  ISP     \t  : {data_jaringan.get('org')}"
         isp_info = pyColorate.Horizontal(pyColors.green_to_yellow, isp_info)
         bannerwz = f"""{c("cyan","=====================================================")}
-  {versi_tampil} {c("cyan","||")} {c("green","https://account.topixsb.dev/")}
+  {versi_tampil} {c("cyan","||")} {c("green","https://8a004015-05e8-4296-a329-2a046f576412-00-15p4jwb2zi7vb.pike.replit.dev/")}
 {c("cyan","=====================================================")}
 {loc_info}
 {isp_info}"""
